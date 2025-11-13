@@ -1,0 +1,84 @@
+@media (max-width:992px) {
+    .top-container {
+        display: none;
+    }
+
+    header ul {
+        width: 50%;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 998;
+        background-color: rgba(0, 0, 0, 0.8);
+        height: 100%;
+        color: white;
+        align-items: center;
+        padding-top: 100px
+    }
+
+    #openMenu {
+        display: block;
+    }
+
+    .main-section {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        width: 50%;
+    }
+
+    .textSection {
+        width: 100%;
+    }
+
+    .section1 img {
+        display: none;
+    }
+
+    .section4-content {
+        width: 100%;
+    }
+
+    .section4Box {
+        flex-direction: column;
+    }
+
+    /* .section5-mid {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    } */
+
+    .section6-card {
+        width: 45%;
+    }
+
+    .aboutUS {
+        width: 45%
+    }
+
+}
+
+
+@media (max-width:768px) {
+    .card {
+        width: 100%;
+    }
+
+    .section6-card {
+        width: 100%;
+    }
+
+    .aboutUS {
+        width: 100%;
+    }
+
+}
+
+
